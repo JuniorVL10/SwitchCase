@@ -19,8 +19,11 @@ namespace SwitchCase
                 "\n4. - division" +
                 "\n5. - salir"
                 );
-            string s1 = null;
-            s1 = Console.ReadLine();
+            //string s1 = null;
+            int i1 = 0;
+
+           // s1 = Console.ReadLine();
+            i1 = Convert.ToInt32(Console.ReadLine());
 
 
               switch (s1)
